@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+}
+.banner{
+    background:black;
+}
+.text{
+    display: flex;
+   justify-content: space-around;
+}
+.text ul{
+    display: flex;
+    list-style: none;
+   
+}
+.text ul li{
+    margin: 15px;
+}
+.text ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: wheat;
+}
+.text img{
+    width: 60px;
+    padding-top: 20px;
+}
+.text i{
+    font-size: 30px;
+    color: white;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+.banner2{
+    background: url(../img/338514.jpg)center/cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.banner3{
+    display: flex;
+}
+.banner4{
+    background: url(../img/8929e4fdaa8328d1ff5a2eeac030bf85.gif)center/cover;
+    width: 50%;
+    height: 80vh;
+    
+
+}
+.banner5{
+    background: url(../img/bj27Tx.jpg)center/cover;
+    width: 50%;
+    height: 80vh;
+    
+
+}
+.card{
+    border: 1px solid wheat;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.card h3{
+    color: wheat;
+}
+.card p{
+    color: wheat;
+}
+.card_parent{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    background: url(../img/HeavySpiffyDromaeosaur-max-1mb.gif)center/cover;
+    border: 3px solid wheat;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+.parent_car{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img_car{
+    border: 2px solid wheat;
+    width: 400px;
+    height: 450px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+.img_car img{
+    width: 200px;
+    margin-top: 20px;
+}
+.img_car .a a{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+}
+.img_car ul li{
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.foot {
+    text-align: center;
+}
+.foot i{
+    font-size: 30px;
+    margin: 20px;
+}
+
+/* media */
+
+@media(max-width:1128px){
+    .text ul li a{
+        font-size: 20px;
+    
+    }
+    .icon i{
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+    .text img{
+        width: 0px;
+    }
+}
+@media(max-width:900px){
+    .text ul li a{
+        font-size: 15px;
+        
+    
+    }
+    .icon i{
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+    .text img{
+        width: 0px;
+    }
+    .img_2 img{
+        width: 40px;
+        margin-left: 5px;
+    }
+}
+@media(max-width:800px){
+    .icon i{
+        font-size: 0px;
+    }
+
+}
+
